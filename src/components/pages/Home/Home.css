@@ -1,0 +1,42 @@
+.search-form{
+    background: #333;
+    padding: 10px;
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.search-form input form{
+    margin: 10px 0;
+}
+.search-form input {
+    width: 70%;
+}
+.search-form input,
+ .search-form button {
+    outline: none;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.user .image{
+    width: 20%;
+}
+.search-form button {
+    background-color: #6cc644;
+    margin: 0 4px;
+}
+.user .image img {
+    width: 100%;
+    border-radius: 10%;
+}
+
